@@ -1,54 +1,40 @@
-<div class="container">
-    <div class="row-fluid justify-content-md-center">
-        <div class="span6">
-            <div class="widget-box">
-                <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
-                    <h5>Personal-info</h5>
-                </div>
-                <div class="widget-content nopadding">
-                    <form action="#" method="get" class="form-horizontal">
-                        <div class="control-group">
-                            <label class="control-label">First Name :</label>
-                            <div class="controls">
-                                <input type="text" class="span11" placeholder="First name">
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <label class="control-label">Last Name :</label>
-                            <div class="controls">
-                                <input type="text" class="span11" placeholder="Last name">
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <label class="control-label">Password input</label>
-                            <div class="controls">
-                                <input type="password" class="span11" placeholder="Enter Password">
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <label class="control-label">Company info :</label>
-                            <div class="controls">
-                                <input type="text" class="span11" placeholder="Company name">
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <label class="control-label">Description field:</label>
-                            <div class="controls">
-                                <input type="text" class="span11">
-                                <span class="help-block">Description field</span> </div>
-                        </div>
-                        <div class="control-group">
-                            <label class="control-label">Message</label>
-                            <div class="controls">
-                                <textarea class="span11"></textarea>
-                            </div>
-                        </div>
-                        <div class="form-actions">
-                            <button type="submit" class="btn btn-success">Save</button>
-                        </div>
-                    </form>
+<div class="card card-register mx-auto mt-5">
+    <div class="card-header">Register an Account</div>
+    <div class="card-body">
+        <form>
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <label for="exampleInputName">First name</label>
+                        <input class="form-control" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter first name">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="exampleInputLastName">Last name</label>
+                        <input class="form-control" id="exampleInputLastName" type="text" aria-describedby="nameHelp" placeholder="Enter last name">
+                    </div>
                 </div>
             </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="exampleConfirmPassword">Confirm password</label>
+                        <input class="form-control" id="exampleConfirmPassword" type="password" placeholder="Confirm password">
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-primary btn-block" href="login.html">Register</a>
+        </form>
+        <div class="text-center">
+            <a class="d-block small mt-3" href="login.html">Login Page</a>
+            <a class="d-block small" href="forgot-password.html">Forgot Password?</a>
         </div>
     </div>
 </div>
