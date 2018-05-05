@@ -13,19 +13,26 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 import { GraficoBarComponent } from './component/grafico-bar/grafico-bar.component';
 
+// services
+import { ServiceModule } from './services/service.module';
+import { SharedModule } from './shared/shared.module';
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    // SidebarComponent
    ],
   imports: [
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
     ],
   providers: [],
   bootstrap: [AppComponent]
