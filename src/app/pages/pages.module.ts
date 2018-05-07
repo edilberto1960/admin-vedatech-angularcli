@@ -14,6 +14,9 @@ import { PagesComponent } from './pages.component';
 import { IncrementadorComponent } from '../component/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../component/grafico-dona/grafico-dona.component';
 import { GraficoBarComponent } from '../component/grafico-bar/grafico-bar.component';
+import { RxjsComponent } from './rxjs.component';
+import { PromesasComponent } from './promesas/promesas.component';
+
 
 @NgModule({
   imports: [
@@ -29,7 +32,9 @@ import { GraficoBarComponent } from '../component/grafico-bar/grafico-bar.compon
   GraficasComponent,
   IncrementadorComponent,
   GraficoDonaComponent,
-  GraficoBarComponent
+  GraficoBarComponent,
+  RxjsComponent,
+  PromesasComponent
   ],
   exports: [
     PagesComponent,
